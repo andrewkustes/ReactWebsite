@@ -6,7 +6,7 @@ function Form() {
 
   var defaultClient = Sib.ApiClient.instance;
   var apiKey = defaultClient.authentications['api-key'];
-  apiKey.apiKey = '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';
+  apiKey.apiKey = 'API_KEY_GOES_HERE';
 
   const formMessage = document.querySelector('#form_message');
 
